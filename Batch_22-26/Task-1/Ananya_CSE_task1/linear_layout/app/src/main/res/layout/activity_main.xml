@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:textSize="50dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center"
+                android:textColor="@color/design_default_color_on_secondary"
+                />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="187dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/sunrise2" />
+
+                <ImageView
+                    android:layout_width="213dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sunrise1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="196dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/afternoon2" />
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="226dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/afternoon1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="196dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sunset1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sunset2" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
