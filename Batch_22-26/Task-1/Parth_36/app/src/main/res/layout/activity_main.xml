@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/reyna_valorant_4k_1k"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/_3_fade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/omen_valorant_4k_2020_34"
+        app:layout_constraintEnd_toStartOf="@+id/iv4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/valorant_chamber_nerf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <ImageView
+        android:id="@+id/iv5"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/viper_valorant_wa_1366x768"
+        app:layout_constraintEnd_toEndOf="@+id/tv5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+    <ImageView
+        android:id="@+id/iv6"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/_94103_kayo_valorant_game_4k_pc_wallpaper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv6"
+        app:layout_constraintTop_toBottomOf="@+id/tv4" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:background="#F10AA4"
+        android:gravity="center"
+        android:text="Reyna"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#EC0D0D"
+        android:gravity="center"
+        android:text="Fade"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#405BF1"
+        android:gravity="center"
+        android:text="Omen"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv3" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chamber"
+        android:background="#F3DF31"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv4" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#09D511"
+        android:gravity="center"
+        android:text="Viper"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv5" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#8D5FDD"
+        android:gravity="center"
+        android:text="KAYO"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:constraint_referenced_ids="iv5 , iv3 , iv1"
+        app:layout_constraintGuide_begin="200dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

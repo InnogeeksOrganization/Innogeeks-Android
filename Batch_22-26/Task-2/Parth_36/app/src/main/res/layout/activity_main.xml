@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="416dp"
+        app:cardBackgroundColor="#C4F8FF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="150sp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:hint="Login Id" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="150sp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:hint="Password" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="47dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/images" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="47dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="45dp"
+            app:srcCompat="@drawable/user_icon_jpg_17" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:text="LOGIN"
+            android:backgroundTint="#3CB6ED"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__big12" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="JOIN THE COMMUNITY NOW AND DONT LET YOUR IDEAS GO TO WASTE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:text="*By pressing login you agree to our Terms and Conditions and Community Guidelines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
