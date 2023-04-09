@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="#00E1FF"
+        android:fadingEdgeLength="10dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/igeeks_symbl"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:text="LOGIN"
+                android:textColor="#F6C679"
+                android:textSize="50sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="USERNAME"
+                android:textColor="#0027FF"
+                android:textSize="30sp"></TextView>
+
+            <EditText
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text=""
+                android:textColorLink="@color/black"
+                android:textSize="20dp"></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="PASSWORD"
+                android:textColor="#0027FF"
+                android:textSize="30sp"></TextView>
+            <EditText
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColorLink="@color/black"
+                android:textSize="20dp"></EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#001FFF"
+                android:outlineAmbientShadowColor="@color/black"
+                android:text="SIGN UP"
+                android:textColor="@color/white"
+                android:textSize="30dp"></Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="or"
+                android:textSize="25dp"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create an Account"
+            android:background="@color/cardview_shadow_end_color"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+</LinearLayout>
