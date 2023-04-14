@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452034657210",
+    "project_id": "roadbud-238bc",
+    "storage_bucket": "roadbud-238bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452034657210:android:a21cfbd07f4cb1d10dbb83",
+        "android_client_info": {
+          "package_name": "com.example.roadbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452034657210-133g4h15b9tjvtv9hcpc0kqplp7du36m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCbAAygLtObj7_-aJ5dWabsHZqmkMCpRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452034657210-133g4h15b9tjvtv9hcpc0kqplp7du36m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

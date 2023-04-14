@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Feedback"
+        android:id="@+id/menu_feedback"
+        />
+    <item
+        android:title="About Us"
+        android:id="@+id/menu_about"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/menu_logout"/>
+</menu>

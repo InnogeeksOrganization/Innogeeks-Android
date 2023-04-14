@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup_Screen">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_credentials"
+        android:backgroundTint="#014EA2"
+        android:padding="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#80ffffff"
+                android:fontFamily="@font/alata"
+                android:textColor="@color/white"
+                android:hint="Full Name"
+                android:padding="10dp"
+                android:textColorHint="#80ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"
+                android:backgroundTint="#80ffffff"
+                android:fontFamily="@font/alata"
+                android:hint="E-mail"
+                android:padding="10dp"
+                android:textColorHint="#80ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#80ffffff"
+                android:textColor="@color/white"
+                android:fontFamily="@font/alata"
+                android:hint="Mobile No."
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textColorHint="#80ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_email" />
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#80ffffff"
+                android:fontFamily="@font/alata"
+                android:textColor="@color/white"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="#80ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_mobile" />
+
+            <Button
+                android:id="@+id/but_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alata"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="#014EA1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_pass" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="137dp"
+        android:layout_height="143dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cv_credentials"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rider" />
+
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Please provide your details below:"
+        android:textColor="#1C37A5"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/cv_credentials"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
