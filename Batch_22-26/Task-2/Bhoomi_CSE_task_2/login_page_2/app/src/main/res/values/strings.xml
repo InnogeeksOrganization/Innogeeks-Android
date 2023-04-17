@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">loginpage1</string>
+    <string name="login">Login</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="password">Password</string>
+    <string name="login1">Login</string>
+    <string name="or">---OR---</string>
+    <string name="signup">SIGNUP</string>
+    <string name="username">Username</string>
+</resources>
