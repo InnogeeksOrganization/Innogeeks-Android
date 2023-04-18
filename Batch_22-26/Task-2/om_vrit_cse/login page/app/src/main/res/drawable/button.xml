@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <<item android:state_enabled="false"
+        android:drawable="@color/red"/>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <gradient
+            android:startColor="@drawable/color/red"/>
+        <padding android:left="7dp"
+            android:top="7dp"
+            android:right="7dp"
+            android:bottom="7dp" />
+    <corners android:radius= "90sp" />
+
+
+</selector>

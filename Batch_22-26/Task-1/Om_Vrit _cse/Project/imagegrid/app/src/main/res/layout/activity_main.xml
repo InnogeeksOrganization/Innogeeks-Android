@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+
+    android:orientation="horizontal"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="162dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:contentDescription="@string/side_sheet_behavior"
+            android:src="@drawable/n" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+
+
+
+            android:src="@drawable/h" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:contentDescription="@string/side_sheet_behavior"
+            android:src="@drawable/j" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/m" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:contentDescription="TODO"
+            android:padding="@android:dimen/app_icon_size"
+            android:src="@drawable/k" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/s" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
