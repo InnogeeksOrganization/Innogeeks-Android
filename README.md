@@ -1,2 +1,1 @@
-# Innogeeks-Android# OMIJ-ANDROID-PROJECTS
-# OMIJ-ANDROID-PROJECTS
+# Innogeeks-Android
