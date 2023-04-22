@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+               android:src="@drawable/lily"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                />
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Lily flower"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lotus1"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="30dp"
+
+                />
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Lotus flower"
+                android:paddingLeft="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/tulipflower" />
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center"
+                    android:text="Tulip flower"
+                    android:paddingLeft="10dp"
+                    />
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/daisy"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Daisy flower"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/carnation"
+                android:layout_marginRight="30dp"
+
+                />
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Carnation flower"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sunflower"
+
+                />
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Sunflower"
+                android:paddingLeft="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/jasmine"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Jasmine flower"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/snowdrop"
+                android:layout_marginRight="30dp"
+
+                />
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Snowdrop flower"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/snapdragon"
+
+                />
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:text="Snapdragon flower"
+                android:paddingLeft="10dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
