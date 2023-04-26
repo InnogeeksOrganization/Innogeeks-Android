@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IndiMon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="taj">The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself."
+                </string>
+    <string name="agrafort">agraaaaaaaaaaa frttttttttttt</string>
+    <string name="qutub">The Qutub Minar,is a minaret and "victory tower" that forms part of the Qutb complex, which lies at the site of Delhi’s oldest fortified city, Lal Kot, founded by the Tomar Rajputs.[3] It is a UNESCO World Heritage Site in the Mehrauli area of South Delhi.</string>
+    <string name="agraFort">The Agra Fort is a historical fort in the city of Agra and also known as Agra\'s Red Fort. Built by the Mughal emperor Akbar in 1565 and completed in 1573, it served as the main residence of the rulers of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi.</string>
+</resources>

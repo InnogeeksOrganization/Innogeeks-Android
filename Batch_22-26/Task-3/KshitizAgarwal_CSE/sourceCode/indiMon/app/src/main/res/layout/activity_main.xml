@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/rightArrow"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/round_corner"
+        android:src="@drawable/right_arrow_svgrepo_com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <ImageButton
+        android:id="@+id/leftArrow"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/round_corner"
+        android:src="@drawable/left_arrow_svgrepo_com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/mainFragment"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286">
+
+
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent">-->
+
+        <!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent">-->
+
+        <!--                <ImageView-->
+        <!--                    android:id="@+id/tajImg"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                    app:layout_constraintStart_toStartOf="parent"-->
+        <!--                    app:layout_constraintTop_toTopOf="parent"-->
+        <!--                    app:layout_constraintVertical_bias="0.5"-->
+        <!--                    tools:srcCompat="@tools:sample/avatars" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/tajBtn"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="Button"-->
+        <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                    app:layout_constraintStart_toStartOf="parent"-->
+        <!--                    app:layout_constraintTop_toBottomOf="@+id/tajImg" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/tajText"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="TextView"-->
+        <!--                    app:layout_constraintBottom_toTopOf="@+id/tajBtn"-->
+        <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                    app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                    app:layout_constraintStart_toStartOf="parent"-->
+        <!--                    app:layout_constraintTop_toBottomOf="@+id/tajImg" />-->
+        <!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <!--        </androidx.cardview.widget.CardView>-->
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
