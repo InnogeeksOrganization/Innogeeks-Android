@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:context=".MainActivity"
+        android:background="@color/peachyyellow">
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/yatra_one"
+            android:shadowColor="@color/black"
+            android:text="@string/suprabhat"
+            android:textAlignment="center"
+            android:textColor="#E65100"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="72dp"
+            android:text="________________"
+            android:textColor="@color/text"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.546"
+            app:layout_constraintStart_toStartOf="parent"></TextView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yatra_one"
+            android:text="@string/select_your_city"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt1"
+            app:layout_constraintVertical_bias="0.107" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/yatra_one"
+            android:text="@string/delhi"
+            android:textColor="@color/peachyyellow"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.107" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/yatra_one"
+            android:text="@string/agra"
+            android:textColor="@color/peachyyellow"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Button1"
+            app:layout_constraintVertical_bias="0.134" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Button3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/yatra_one"
+            android:text="@string/mumbai"
+            android:textColor="@color/peachyyellow"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Button2"
+            app:layout_constraintVertical_bias="0.18"
+            card_view:ignore="VisualLintOverlap" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Button4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/yatra_one"
+            android:text="@string/punjab"
+            android:textColor="@color/peachyyellow"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Button3"
+            app:layout_constraintVertical_bias="0.259"
+            card_view:ignore="VisualLintOverlap" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/downpg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Button4"
+            app:layout_constraintVertical_bias="0.458"
+            card_view:layout_editor_absoluteX="0dp"
+            android:contentDescription="@string/todo"
+            card_view:ignore="VisualLintBounds"></ImageView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

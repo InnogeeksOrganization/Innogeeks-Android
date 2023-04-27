@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Monumental_India" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#EA6B25</item>
+    </style>
+
+    <style name="Theme.Monumental_India" parent="Base.Theme.Monumental_India" />
+</resources>
