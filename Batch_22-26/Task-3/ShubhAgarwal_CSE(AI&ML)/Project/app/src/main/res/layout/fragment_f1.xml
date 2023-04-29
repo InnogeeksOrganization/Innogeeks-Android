@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f1"
+    android:background="@drawable/front"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   EXPLORE"
+        android:textColor="#FF3D00"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/tajm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="TAJ MAHAL"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/lotus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:alpha="0.8"
+                android:backgroundTint="#ADFAB7A3"
+                android:text="LOTUS TEMPLE"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chr"
+            android:layout_margin="20dp"
+            android:text="CHARMINAR"
+            android:textColor="#000000"
+            android:backgroundTint="#ADFAB7A3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:alpha="0.8"/>
+
+                <Button
+                    android:id="@+id/gold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="GOLDEN TEMPLE"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/imambara"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="BARA IMAMBARA"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/jantar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="JANTAR MANTAR"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/gatew"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="GATEWAY OF INDIA"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/jama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="JAMA MASJID"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/sanchi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="SANCHI STUPA"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/rumi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="RUMI GATE"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/redf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="RED FORT"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/hawa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="HAWA MAHAL"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/kon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="KONARK TEMPLE"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/vict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="VICTORIA MEMORIAL"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/qutub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:alpha="0.8"
+                    android:backgroundTint="#ADFAB7A3"
+                    android:text="QUTUB MINAR"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>
