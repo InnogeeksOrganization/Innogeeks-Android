@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/f13">
+    <fragment
+        android:id="@+id/f13"
+        android:name="com.example.wonder_india.f1"
+        android:label="fragment_f1"
+        tools:layout="@layout/fragment_f1" >
+        <action
+            android:id="@+id/action_f13_to_taj"
+            app:destination="@id/taj" />
+        <action
+            android:id="@+id/action_f13_to_redfort"
+            app:destination="@id/redfort" />
+        <action
+            android:id="@+id/action_f13_to_qutub"
+            app:destination="@id/qutub" />
+        <action
+            android:id="@+id/action_f13_to_victoria"
+            app:destination="@id/victoria" />
+        <action
+            android:id="@+id/action_f13_to_sanchi"
+            app:destination="@id/sanchi" />
+        <action
+            android:id="@+id/action_f13_to_rumi"
+            app:destination="@id/rumi" />
+        <action
+            android:id="@+id/action_f13_to_nalanda"
+            app:destination="@id/nalanda" />
+        <action
+            android:id="@+id/action_f13_to_mysore"
+            app:destination="@id/mysore" />
+        <action
+            android:id="@+id/action_f13_to_amer"
+            app:destination="@id/amer" />
+        <action
+            android:id="@+id/action_f13_to_charminar"
+            app:destination="@id/charminar" />
+        <action
+            android:id="@+id/action_f13_to_ellora"
+            app:destination="@id/ellora" />
+        <action
+            android:id="@+id/action_f13_to_gateway"
+            app:destination="@id/gateway" />
+        <action
+            android:id="@+id/action_f13_to_lotus"
+            app:destination="@id/lotus" />
+        <action
+            android:id="@+id/action_f13_to_konark"
+            app:destination="@id/konark" />
+        <action
+            android:id="@+id/action_f13_to_jantarmantar"
+            app:destination="@id/jantarmantar" />
+        <action
+            android:id="@+id/action_f13_to_jama"
+            app:destination="@id/jama" />
+        <action
+            android:id="@+id/action_f13_to_jagarnath"
+            app:destination="@id/jagarnath" />
+        <action
+            android:id="@+id/action_f13_to_imambada"
+            app:destination="@id/imambada" />
+        <action
+            android:id="@+id/action_f13_to_hawa"
+            app:destination="@id/hawa" />
+        <action
+            android:id="@+id/action_f13_to_golden"
+            app:destination="@id/golden" />
+        <action
+            android:id="@+id/action_f13_to_akshardham"
+            app:destination="@id/akshardham" />
+        <action
+            android:id="@+id/action_f13_to_akshardham2"
+            app:destination="@id/akshardham" />
+    </fragment>
+    <fragment
+        android:id="@+id/taj"
+        android:name="com.example.wonder_india.taj"
+        android:label="fragment_taj"
+        tools:layout="@layout/fragment_taj">
+        <action
+            android:id="@+id/action_taj_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/redfort"
+        android:name="com.example.wonder_india.redfort"
+        android:label="fragment_redfort"
+        tools:layout="@layout/fragment_redfort">
+        <action
+            android:id="@+id/action_redfort_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/victoria"
+        android:name="com.example.wonder_india.victoria"
+        android:label="fragment_victoria"
+        tools:layout="@layout/fragment_victoria">
+        <action
+            android:id="@+id/action_victoria_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/sanchi"
+        android:name="com.example.wonder_india.sanchi"
+        android:label="fragment_sanchi"
+        tools:layout="@layout/fragment_sanchi">
+        <action
+            android:id="@+id/action_sanchi_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/rumi"
+        android:name="com.example.wonder_india.rumi"
+        android:label="fragment_rumi"
+        tools:layout="@layout/fragment_rumi">
+        <action
+            android:id="@+id/action_rumi_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/nalanda"
+        android:name="com.example.wonder_india.nalanda"
+        android:label="fragment_nalanda"
+        tools:layout="@layout/fragment_nalanda">
+        <action
+            android:id="@+id/action_nalanda_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/mysore"
+        android:name="com.example.wonder_india.mysore"
+        android:label="fragment_mysore"
+        tools:layout="@layout/fragment_mysore">
+        <action
+            android:id="@+id/action_mysore_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/amer"
+        android:name="com.example.wonder_india.amer"
+        android:label="fragment_amer"
+        tools:layout="@layout/fragment_amer">
+        <action
+            android:id="@+id/action_amer_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/charminar"
+        android:name="com.example.wonder_india.charminar"
+        android:label="fragment_charminar"
+        tools:layout="@layout/fragment_charminar" >
+        <action
+            android:id="@+id/action_charminar_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/ellora"
+        android:name="com.example.wonder_india.ellora"
+        android:label="fragment_ellora"
+        tools:layout="@layout/fragment_ellora">
+        <action
+            android:id="@+id/action_ellora_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/gateway"
+        android:name="com.example.wonder_india.gateway"
+        android:label="fragment_gateway"
+        tools:layout="@layout/fragment_gateway">
+        <action
+            android:id="@+id/action_gateway_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/lotus"
+        android:name="com.example.wonder_india.lotus"
+        android:label="fragment_lotus"
+        tools:layout="@layout/fragment_lotus">
+        <action
+            android:id="@+id/action_lotus_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/konark"
+        android:name="com.example.wonder_india.konark"
+        android:label="fragment_konark"
+        tools:layout="@layout/fragment_konark">
+        <action
+            android:id="@+id/action_konark_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/jantarmantar"
+        android:name="com.example.wonder_india.jantarmantar"
+        android:label="fragment_jantarmantar"
+        tools:layout="@layout/fragment_jantarmantar">
+        <action
+            android:id="@+id/action_jantarmantar_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/jama"
+        android:name="com.example.wonder_india.jama"
+        android:label="fragment_jama"
+        tools:layout="@layout/fragment_jama">
+        <action
+            android:id="@+id/action_jama_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/jagarnath"
+        android:name="com.example.wonder_india.jagarnath"
+        android:label="fragment_jagarnath"
+        tools:layout="@layout/fragment_jagarnath">
+        <action
+            android:id="@+id/action_jagarnath_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/imambada"
+        android:name="com.example.wonder_india.imambada"
+        android:label="fragment_imambada"
+        tools:layout="@layout/fragment_imambada">
+        <action
+            android:id="@+id/action_imambada_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/hawa"
+        android:name="com.example.wonder_india.hawa"
+        android:label="fragment_hawa"
+        tools:layout="@layout/fragment_hawa">
+        <action
+            android:id="@+id/action_hawa_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/golden"
+        android:name="com.example.wonder_india.golden"
+        android:label="fragment_golden"
+        tools:layout="@layout/fragment_golden">
+        <action
+            android:id="@+id/action_golden_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/akshardham"
+        android:name="com.example.wonder_india.akshardham"
+        android:label="fragment_akshardham"
+        tools:layout="@layout/fragment_akshardham">
+        <action
+            android:id="@+id/action_akshardham_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+    <fragment
+        android:id="@+id/qutub"
+        android:name="com.example.wonder_india.qutub"
+        android:label="fragment_qutub"
+        tools:layout="@layout/fragment_qutub">
+        <action
+            android:id="@+id/action_qutub_to_f13"
+            app:destination="@id/f13" />
+    </fragment>
+</navigation>
