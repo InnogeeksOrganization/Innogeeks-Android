@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_frag">
+
+    <fragment
+        android:id="@+id/home_frag"
+        android:name="com.example.monumental_india.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_frag_to_mumbai"
+            app:destination="@id/mumbai" />
+        <action
+            android:id="@+id/action_home_frag_to_punjab"
+            app:destination="@id/punjab" />
+        <action
+            android:id="@+id/action_home_frag_to_agra"
+            app:destination="@id/agra" />
+        <action
+            android:id="@+id/action_home_frag_to_delhi"
+            app:destination="@id/delhi" />
+    </fragment>
+    <fragment
+        android:id="@+id/agra"
+        android:name="com.example.monumental_india.agra"
+        android:label="fragment_agra"
+        tools:layout="@layout/fragment_agra" >
+        <action
+            android:id="@+id/action_agra_to_tajmahal"
+            app:destination="@id/tajmahal" />
+    </fragment>
+    <fragment
+        android:id="@+id/mumbai"
+        android:name="com.example.monumental_india.mumbai"
+        android:label="fragment_mumbai"
+        tools:layout="@layout/fragment_mumbai" >
+        <action
+            android:id="@+id/action_mumbai_to_gatewayofindia2"
+            app:destination="@id/gatewayofindia2" />
+    </fragment>
+    <fragment
+        android:id="@+id/punjab"
+        android:name="com.example.monumental_india.punjab"
+        android:label="fragment_punjab"
+        tools:layout="@layout/fragment_punjab" >
+        <action
+            android:id="@+id/action_punjab_to_goldentemple2"
+            app:destination="@id/goldentemple2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tajmahal"
+        android:name="com.example.monumental_india.tajmahal"
+        android:label="fragment_tajmahal"
+        tools:layout="@layout/fragment_tajmahal" />
+    <fragment
+        android:id="@+id/delhi"
+        android:name="com.example.monumental_india.delhi"
+        android:label="fragment_delhi"
+        tools:layout="@layout/fragment_delhi" >
+        <action
+            android:id="@+id/action_delhi_to_redfort2"
+            app:destination="@id/redfort2" />
+        <action
+            android:id="@+id/action_delhi_to_jantarmantar2"
+            app:destination="@id/jantarmantar2" />
+        <action
+            android:id="@+id/action_delhi_to_humayuntomb2"
+            app:destination="@id/humayuntomb2" />
+    </fragment>
+    <fragment
+        android:id="@+id/humayuntomb2"
+        android:name="com.example.monumental_india.humayuntomb"
+        android:label="fragment_humayuntomb"
+        tools:layout="@layout/fragment_humayuntomb" />
+    <fragment
+        android:id="@+id/redfort2"
+        android:name="com.example.monumental_india.redfort"
+        android:label="fragment_redfort"
+        tools:layout="@layout/fragment_redfort" />
+    <fragment
+        android:id="@+id/jantarmantar2"
+        android:name="com.example.monumental_india.jantarmantar"
+        android:label="fragment_jantarmantar"
+        tools:layout="@layout/fragment_jantarmantar" />
+    <fragment
+        android:id="@+id/gatewayofindia2"
+        android:name="com.example.monumental_india.gatewayofindia"
+        android:label="fragment_gatewayofindia"
+        tools:layout="@layout/fragment_gatewayofindia" />
+    <fragment
+        android:id="@+id/goldentemple2"
+        android:name="com.example.monumental_india.goldentemple"
+        android:label="fragment_goldentemple"
+        tools:layout="@layout/fragment_goldentemple" />
+</navigation>
