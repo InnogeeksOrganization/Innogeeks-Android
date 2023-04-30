@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_weight="0.1"
+            android:background="#EAC614"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Know Your Monumnets"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/tajmahal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+
+"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/gateway" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai (Bombay), India. It was erected to commemorate the landing of King-Emperor George V, the first British monarch to visit India, in December 1911 at Strand Road near Wellington Fountain.
+
+The foundation stone was laid in March 1913 for a monument built in the Indo-Islamic style, inspired by elements of 16th-century Gujarati architecture. The final design of the monument by architect George Wittet was sanctioned only in 1914, and construction was completed in 1924. The structure is a memorial arch made of basalt, which is 26 metres (85 feet) high, with an architectural resemblance to a triumphial arch as well as Gujarati architecture of the time.
+
+"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/qutub" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and victory tower that forms part of the Qutb complex, which lies at the site of Delhi’s oldest fortified city, Lal Kot, founded by the Tomar Rajputs.[3] It is a UNESCO World Heritage Site in the Mehrauli area of South Delhi, India.[4][5] It is one of the most visited tourist spots in the city, mostly built between 1199 and 1220.[6][7][4]
+
+It can be compared to the 62-metre all-brick Minaret of Jam in Afghanistan, of c. 1190, which was constructed a decade or so before the probable start of the Delhi tower.[8] The surfaces of both are elaborately decorated with inscriptions and geometric patterns. The Qutb Minar has a shaft that is fluted with superb stalactite bracketing under the balconies at the top of each stage.[9][10][11] In general, minarets were slow to be used in India and are often detached from the main mosque where they exist.[12]
+
+
+
+"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/lalquila" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Red Fort or Lal Qila is built of red sandstone , located in the historic, fortified, Old Delhi area of ​​Delhi . The fort is called the Red Fort, because of the scarlet-red color of its walls. This historic fort was selected as a World Heritage Site by UNESCO in the year 2007. [1] The Red Fort located in Delhi, the capital of India, is a symbol of the country's pride and independence. This historical monument built during the Mughal period is included in the list of World Heritage and is one of the major tourist destinations of India. People come from all corners of the world to see the beauty, grandeur and charm of the Red Fort and admire its royal design and unique architecture.
+
+This royal fort is not only the political center of the Mughal emperors, but it was also a ceremonial center, which was ruled by the rulers of the Mughal dynasty for about 200 years. The Red Fort, which was witness to the country's freedom struggle, is a unique and unique example of Mughal architecture, creativity and beauty.
+
+A very beautiful museum is also built inside this grand fort built in 1648 AD. This grand fort spread over 250 acres of land tells the story of the deep struggle against the Mughal monarchy and the Britishers. At the same time, the history of this fort, which is considered the national pride of India, is very interesting.
+
+
+
+"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/hawa" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers.
+
+The structure was built in 1799 by the Maharaja Sawai Pratap Singh, grandson of Maharaja Sawai Jai Singh, the founder of the city of Jaipur, India.[1] He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.
+
+It was designed by Lal Chand Ustad. Its five-floor exterior is akin to a honeycomb with its 953 small windows called Jharokhas decorated with intricate latticework.[2] The original intent of the lattice design was to allow royal ladies to observe everyday life and festivals celebrated in the street below without being seen. This architectural feature also allowed cool air from the Venturi effect to pass through, thus making the whole area more pleasant during the high temperatures in summer.[2][3][4] Many people see the Hawa Mahal from the street view and think it is the front of the palace, but it is the back.[5]
+
+In 2006, renovation works on the Mahal were undertaken, after a gap of 50 years, to give a facelift to the monument at an estimated cost of Rs 4.568  million.[6] The corporate sector lent a hand to preserve the historical monuments of Jaipur and the Unit Trust of India has adopted Hawa Mahal to maintain it.[7] The palace is an extended part of a huge complex. The stone-carved screens, small casements, and arched roofs are some of the features of this popular tourist spot. The monument also has delicately modelled hanging cornices.
+
+
+
+"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+</ScrollView>
