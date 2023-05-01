@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/searchview"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="search monuments" />
+
+    <LinearLayout
+        android:layout_width="472dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/taj"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:background="@drawable/taj_mahal"
+
+                android:contentDescription="@string/todo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="@string/taj_mahal"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/indiagate"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="India Gate"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/india"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:background="@drawable/img"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lotustemple"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/lotus"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/lotustemple"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="Lotus Temple"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/premmandir"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/premmandir"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="@string/prem_mandir"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/click_me" />
+
+  <!--  <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />-->
+
+
+</LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="690dp"
+        app:menu="@menu/itcons" />
+
+
+</FrameLayout>

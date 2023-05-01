@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tajmahal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#D8BCFB"
+                android:clickable="true"
+                android:text="Some image of Taj Mahal"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2in"
+                android:src="@drawable/images"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/black"
+                android:paddingTop="30dp"
+
+                />
+            <TextView
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Things to know about Taj Mahal"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:backgroundTint="#BA95EF"
+                android:paddingBottom="40dp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Outstanding Universal Value
+
+Brief synthesis
+
+The Taj Mahal is located on the right bank of the Yamuna River in a vast Mughal garden that encompasses nearly 17 hectares, in the Agra District in Uttar Pradesh. It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal with construction starting in 1632 AD and completed in 1648 AD, with the mosque, the guest house and the main gateway on the south, the outer courtyard and its cloisters were added subsequently and completed in 1653 AD. The existence of several historical and Quaranic inscriptions in Arabic script have facilitated setting the chronology"
+android:textSize="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

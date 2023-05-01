@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart"
+    android:background="#D4B8FA"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Visit"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/greybackbround"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Date and Time "
+                android:inputType="datetime"
+                android:background="@drawable/greybackbround"
+                android:textColorHint="#5D4037" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/greybackbround"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Personal Information"
+                android:inputType="textPersonName"
+                android:background="@drawable/greybackbround"
+                android:textColorHint="#5D4037" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/greybackbround"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/greybackbround"
+                android:textColorHint="#5D4037" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/greybackbround"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Members"
+                android:inputType="number"
+                android:background="@drawable/greybackbround"
+                android:textColorHint="#5D4037" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay" android:layout_gravity="center"
+        android:layout_margin="20dp"
+
+            />
+    </LinearLayout>
+</FrameLayout>

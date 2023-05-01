@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="@color/white">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/taj_mahal"
+            android:contentDescription="TODO" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taj Mahal"
+            android:layout_marginLeft="250dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Description"
+        android:textColor="#3F51B5"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="The Taj Mahal,crown of palace is a white Marble mausoleum located in Agra,India.It was bulit by Mughal emperor Shah Jahan in memory of his third wife ,Mumtaz Mahal.The Taj Mahal is widely recognized as the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.In 1983,the Taj Mahal became a UNESCO World Heritage Site.
+" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#B13812"
+        android:text="See The Location" />
+
+
+</LinearLayout>
