@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Taj_Mahal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="TAJ MAHAL"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Entry Ticket         ->          Rs. 50"
+        android:textSize="30dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Tickets are available One day before the date of Night Viewing from the office of Archaeological Survey of India (A.S.I.) 22, Mall Road, Agra between 10 A.M. to 6 P.M. Ph. +91 0562 - 2227261, 2227263, Fax: +91 562 - 2227262 E-mail: circleagra.asi@gov.in
+
+        Night Viewing Ticket can be cancelled in the above mentioned office on the day of viewing up to 1 P.M. as per the cancellation rules. Night Viewing Timing: 20:30 hrs. to 00.30 hrs. in 8 batches of max. 50 people each. Time duration for each batch is half an hour (30 minutes).
+         Tourists have to report half an hour before the viewing time mentioned on their ticket at Shilpgram for security checks. Please note every one has to have ones i.d. during visit.
+
+Note: Tourists are advised to contact their travelagent/hotel/tourist offices/Archiological Surver of India/visit - http://www.asiagracircle.in Tourists must reach at Shilpgram (near Eastern gate of Taj Mahal) half an hour before the scheduled time mentioned on their tickets for security checks.
+
+Taj Mahal Night Viewing Tickets available One Day before Night Viewing of the Taj Mahal 10.00 A.M. to 6.00 P.M."
+
+            android:textSize="30dp" />
+
+    </ScrollView>
+
+
+</LinearLayout>
