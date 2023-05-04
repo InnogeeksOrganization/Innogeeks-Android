@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Monuments</string>
+    <string name="todo">TODO</string>
+    <string name="taj_mahal">Taj mahal</string>
+    <string name="india_gate">india_gate</string>
+    <string name="lotus_temple">lotus_temple</string>
+    <string name="click_me">click_me</string>
+    <string name="prem_mandir">Prem Mandir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
