@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chrbg"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:fontFamily="cursive"
+            android:text="The Charminar (four minarets) is a monument located in Hyderabad, Telangana, India. Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana.The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years. While both historically and religiously significant,it is also known for its popular and busy local markets surrounding the structure, and has become one of the most frequented tourist attractions in Hyderabad. Charminar is also a site of numerous festival celebrations, such as Eid-ul-adha and Eid al-Fitr,as it is adjacent to the city's main mosque, the Makkah Masjid.
+
+The Charminar is situated on the east bank of Musi River.To the west lies the Laad Bazaar, and to the southwest lies the richly ornamented granite Makkah Masjid.It is listed as an archaeological and architectural treasure on the official list of monuments prepared by the Archaeological Survey of India.The English name is a translation and combination of the Urdu words chār and minar or meenar, translating to 'FOUR PILLARS'; the eponymous towers are ornate minarets attached and supported by four grand arches"
+            android:textColor="#33372E"
+
+
+            android:textSize="25sp"
+
+            android:textStyle="bold" />
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

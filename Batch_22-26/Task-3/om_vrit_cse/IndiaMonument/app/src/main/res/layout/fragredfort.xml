@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+
+    android:layout_height="match_parent"
+    android:background="@drawable/redfortbg"
+    tools:context=".hawamahal">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill_vertical"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="257dp"
+                android:src="@drawable/lalkila"
+                android:contentDescription="TODO" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_margin="5sp"
+
+
+                android:layout_marginBottom="10sp"
+                android:fontFamily="cursive"
+
+
+                android:gravity="center_vertical"
+                android:text="The Red Fort or Lal Qila (Hindustani: [laːl qiːlaː]) is a historic fort in the Old Delhi neighbourhood of Delhi,India,that historically served as the main residence of the Mughal emperors.Emperor Shah Jahan commissioned construction of the Red Fort on 12th May 1638.when he decided to shift his capital from Agra to Delhi. Originally red and white, its design is credited to architect Ustad Ahmad Lahori, who also constructed the Taj Mahal. The fort represents the peak in Mughal architecture under Shah Jahan and combines Persianate palace architecture with Indian traditions.The fort was plundered of its artwork and jewels during Nader Shah's invasion of the Mughal Empire in 1739.Most of the fort's marble structures were subsequently demolished by the British following the Indian Rebellion of 1857.The fort's defensive walls were largely undamaged, and the fortress was subsequently used as a garrison.On 15 August 1947, the first prime minister of India,Jawaharlal Nehru,raised the Indian flag above the Lahori Gate.Every year on India's Independence Day (15 August), the prime minister hoists the Indian tricolour flag at the fort's main gate and delivers a nationally broadcast speech from its ramparts.The Red Fort was designated a UNESCO World Heritage Site in 2007 as part of the Red Fort Complex"
+                android:textColor="@color/white"
+                android:layout_marginRight="5sp"
+
+
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
