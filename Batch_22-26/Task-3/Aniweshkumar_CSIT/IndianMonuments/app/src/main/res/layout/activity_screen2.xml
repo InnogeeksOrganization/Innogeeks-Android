@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundscreen"
+    tools:context=".Screen2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Indian Monuments"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/redfort_img"
+                android:id="@+id/redfort"
+                android:layout_margin="5dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tajmahal_img"
+                android:id="@+id/tajmahal"
+                android:layout_margin="5dp"/>
+
+            <ImageButton
+                android:id="@+id/indiagate"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/indiagate_img" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/goldentemple_img"
+                android:id="@+id/goldentemple"
+                android:layout_margin="5dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/lotustemple_img"
+                android:id="@+id/lotustemple"
+                android:layout_margin="5dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/hawamahal_img"
+                android:id="@+id/hawamahal"
+                android:layout_margin="5dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/aksardhamtemple_img"
+                android:id="@+id/aksardhamtemple"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
