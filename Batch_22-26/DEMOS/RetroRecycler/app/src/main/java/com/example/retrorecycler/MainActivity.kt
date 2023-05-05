@@ -3,6 +3,7 @@ package com.example.retrorecycler
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -18,10 +19,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-       val retrofitService = api_controller.getInstance()
-       val retrfitdata = retrofitService.getMemes()
-       retrfitdata.enqueue(object : retrofit2.Callback<ResponseModel> {
+        val retrofitService = api_controller.retrofit.create(Api_Interface::class.java)
+        val retrfitdata = retrofitService.getMemes()
+        retrfitdata.enqueue(object : retrofit2.Callback<ResponseModel> {
 
            override fun onResponse( call: Call<ResponseModel>, response: Response<ResponseModel> ) {
                val responseBody = response.body()
@@ -33,15 +33,7 @@ class MainActivity : AppCompatActivity() {
 
            override fun onFailure(call: Call<ResponseModel>, t: Throwable) {
            }
-       })
-
-
-
-
-
-
-
-
+        })
 
     }
 }
