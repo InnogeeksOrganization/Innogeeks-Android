@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209739816431",
+    "project_id": "fir-demo-9ab37",
+    "storage_bucket": "fir-demo-9ab37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209739816431:android:220cb7b9653fcdc62bea1a",
+        "android_client_info": {
+          "package_name": "com.example.innofire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209739816431-lrstln1h20te02f9asf1fv5n0mfv3219.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn5BCciCoi9P_n7zieB76IJ44nBYu4Uxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209739816431-lrstln1h20te02f9asf1fv5n0mfv3219.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
