@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:fontFamily="@font/billabong"
+        android:text="Instagram"
+        android:textSize="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone"
+        style="@style/editText"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="12"
+        android:padding="10dp"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/roundstyle"
+        android:hint="Phone number, email or username"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/editText"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="12"
+        android:padding="10dp"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/roundstyle"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Login"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:text="LOG IN"
+        style="@style/BUTTON"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#1E2B6A"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/forgot"
+        style="@style/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Forgot your login details?"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Login"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/helper"
+        style="@style/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:text="get help logging in"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/forgot"
+        app:layout_constraintTop_toBottomOf="@id/Login"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:id="@+id/orRight"
+        android:layout_width="140dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="36dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgot" />
+
+    <View
+        android:id="@+id/orLeft"
+        android:layout_width="140dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="36dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helper" />
+
+    <TextView
+        android:id="@+id/OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="OR"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/orLeft"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/orRight"
+        app:layout_constraintTop_toBottomOf="@+id/forgot"/>
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="login with facebook"
+        android:textColor="#1F4CEF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OR"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:id="@+id/bottomDivider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="40dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/noAcc"
+        style="@style/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="don't have an account"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bottomDivider" />
+
+    <TextView
+        style="@style/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="sign up"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/noAcc"
+        app:layout_constraintTop_toBottomOf="@id/bottomDivider" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
